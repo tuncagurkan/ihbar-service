@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ihbar-service
+  config:
+    name: ihbar-service
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://localhost:9003}
+      password: ${CONFIG_SERVER_PASSWORD:12345}
+      username: ${CONFIG_SERVER_USERNAME:user}
